@@ -1,4 +1,4 @@
-def Primary():
+def Main():
    print("Keep it logically awesome.")
 
   f = open("quotes.txt")
@@ -7,5 +7,5 @@ def Primary():
 
   print(quotes[0])
 
-if __name__== "__Primary__":
-  Primary()
+if __name__== "__Main__":
+  Main()
